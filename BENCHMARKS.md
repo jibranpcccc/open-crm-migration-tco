@@ -14,3 +14,13 @@
 
 ---
 Maintained by [OpenCRMStack](https://opencrmstack.pages.dev/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Twenty Crm Vs Hubspot Cost Comparison** | [https://opencrmstack.pages.dev/twenty-crm-vs-hubspot-open-source-sales-pipeline-audit/](https://opencrmstack.pages.dev/twenty-crm-vs-hubspot-open-source-sales-pipeline-audit/) |
+| **Self Hosted Erpnext Vs Salesforce Tco** | [https://opencrmstack.pages.dev/self-hosted-erpnext-vs-salesforce-cost-migration-breakdown/](https://opencrmstack.pages.dev/self-hosted-erpnext-vs-salesforce-cost-migration-breakdown/) |
+| **Twenty Crm Postgresql Backup Restore Guide** | [https://opencrmstack.pages.dev/twenty-crm-backup-restore/](https://opencrmstack.pages.dev/twenty-crm-backup-restore/) |
+| **Hubspot Marketing Contacts Price Increase Calculator** | [https://opencrmstack.pages.dev/hubspot-marketing-contacts-price-calculator/](https://opencrmstack.pages.dev/hubspot-marketing-contacts-price-calculator/) |
+
