@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "OpenCRMStack - Open-Source CRM vs HubSpot/Salesforce 3-Year TCO API",
+    "description": "Per-seat SaaS cost comparison against self-hosted Twenty CRM and ERPNext API. Official production documentation hosted at https://opencrmstack.pages.dev/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "OpenCRMStack Architecture Team",
+      "url": "https://opencrmstack.pages.dev/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://opencrmstack.pages.dev",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/tco-calculator": {
+      "get": {
+        "summary": "Simulate 3-year TCO savings across sales team sizes",
+        "description": "Executes the empirical calculations and data models for OpenCRMStack.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://opencrmstack.pages.dev/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
